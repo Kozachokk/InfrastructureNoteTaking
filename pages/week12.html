@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=devide-width intial-scale=1" />
+    <title></title>
+    <link href="../assets/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="week10.html">Week 10</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="week13.html">Week 13</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>GIT</h1>
+
+      <article>
+        <p>
+          Version control software(VCS) is software that is used to
+          automatically control and track changes to project(repositories), in
+          order to efficiently store multiple versions of them<br />
+          Git is an open-source distributed version control system(DVCS) meaning
+          that it's a VCS, but every person that downloads a copy of the
+          repository, downloads the whole history on their machine<br />
+          Commonly used commands:
+        </p>
+        <ul>
+          <li>git init: creates a local git repository</li>
+          <li>git add: adds files to the staging area</li>
+          <li>
+            git commit -m "message": saves the changes to the local repository
+          </li>
+          <li>
+            git status: show the state of the working directory and staging area
+          </li>
+        </ul>
+        <p>
+          Branches are also an important concept in version control since they
+          are essentially a copy of the project on which you can work without
+          changing anything in the main branch that has the working code,<br />
+          so you can test and play with new things without breaking anything<br />
+          Commonly used commands:
+        </p>
+        <ul>
+          <li>git branch &lt;name&gt;: creates a new branch</li>
+          <li>git switch &lt;branch_name&gt;: Switches to another branch</li>
+          <li>
+            git merge &lt;branch_name&gt;: Merges current branch with another
+            one
+          </li>
+          <li>
+            git checkout &lt;name&gt;: Swithces between differet version of the
+            project
+          </li>
+          <li>git branch: List all branches</li>
+          <li>git branch -v: List all branches in verbose mode</li>
+          <li></li>
+          <li>git branch -d &lt;branch_name&gt;: Deletes the branch</li>
+          <li>
+            git branch -m &lt;Old branch name&gt; &lt;New branch name&gt;:
+            Renames the branch
+          </li>
+        </ul>
+        <p>
+          There are also remote repositories which are hosted online so anyone
+          can access them, they act as a central hub, popular hosts include:
+          Github, Gitlab, Bitbucker<br />
+          Commonly used commands:
+        </p>
+        <ul>
+          <li>git clone &lt;url&gt;: Creates a copy in a local repository</li>
+          <li>
+            git push origin &lt;branch_name&gt;: Uploads the local changes to
+            the origin(remote repository)
+          </li>
+          <li>
+            git pull origin &lt;branch_name&gt;: Downloads the branch from the
+            remote repository to the locac one
+          </li>
+          <li>
+            git fetch origin: Downloads objects and refs from another repository
+          </li>
+        </ul>
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=devide-width intial-scale=1" />
+    <title></title>
+    <link href="../assets/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="week9.html">Week 9</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="week12.html">Week 12</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Operating System</h1>
+      <article>
+        <p>
+          The Operating System(OS) is software that is the middle man between
+          hardware and software, and also between the computer and the user.
+          <br />There are two major types: Graphical user interface(GUI) and
+          command-base interface(CLI) <br />Operating Systems are responsable to
+          manage memory, files and processes
+        </p>
+        <dl>
+          <dt>Memory Management</dt>
+          <dd>
+            The OS maps the memory of connected devices so that the CPU can use
+            them using a technique called Memory Mappe I/O<br />
+            VRAM is Virtual Memory is case when the system RAM is full, it's
+            going to unload some unused processes into the disk to free up
+            space, it's also called sometimes swap
+          </dd>
+          <dt>File Management</dt>
+          <dd>
+            The OS can use file system to organize data, some frequetly used
+            include FAT, TFS, ext, HFS, APFS<br />
+            There are many ways to store data on storage devices, including
+            Contiguous Allocation, Linked Allocation and Indexed Allocation<br />
+            <ul>
+              <li>
+                Contiguous Allocation starts on one block and fills up next
+                blocks, taking one by one until its length. The data is stored
+                all in one place
+              </li>
+              <li>
+                Linked Allocation starts with one random block, and this block
+                contains a link to the next, which is also random. The data is
+                scattered
+              </li>
+              <li>
+                Indexed Allocation, a set of continuous block contains a list of
+                indices to all the other block. The data is scattered
+              </li>
+            </ul>
+            The OS also manages file permission, with three groups: owner,
+            group, public. It manages execution, write and read permissions
+          </dd>
+          <dt>Process Management</dt>
+          <dd>
+            Processes are instances of running programs, aka software<br />
+            During their creation, the OS allocates system ressources to them
+            and a process control block(PCB)<br />
+            The PCB is a data structure linked to every process,created by the
+            OS, that contains the process ID, its priority, the CPU registers
+            and memory pointers<br />
+            The OS use a scheduler to share equally the CPU to all the processes
+            so all of them can run<br />
+            During that sharing of the CPU, the processes on pause, save their
+            state to their PCB so that they can continue running afterwards
+          </dd>
+        </dl>
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+</html>

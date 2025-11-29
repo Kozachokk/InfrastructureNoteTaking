@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=devide-width intial-scale=1" />
+    <title>CPUs and little GPU</title>
+    <link href="../assets/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+                    <li><a href="week4.html">Week 4</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="week8.html">Week 8</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>What is a CPU?</h1>
+
+      <article>
+        <p>Central Processing Unit(CPU):<br>
+          &nbsp&nbspCPUs are considered the brain of the computer since they are performing all the calculations. A CPU has three main components:
+          <ul>
+            <li>Control Unit(CU):
+              <br>&nbsp&nbsp Controls the flow of the information</li>
+            <li>Arithmetic Logic Unit(ALU):<br>
+            &nbsp&nbsp The component that performs the calculations</li>
+            <li>Registers:<br>
+            &nbsp&nbsp Stores data and instructions for and from the ALU</li>
+          </ul>
+        </p><br>
+        <p>
+          CPUs these days are multi-cored, meaning in one piece there are multiple CPU that each have Level 1 and Level 2 Cache, and a Level 3 Cache that is shared with all the CPUs.<br>
+          In order to communicate with the rest of the computer the CPU connects with the motherboard with pins.
+          Also these days, there are two types of CPUs sockets,<br> we have Land Grid Array, that mean the the CPU uses Lands and the motherboard has the pins, with a Pin Grid Array CPU it's vice-versa.
+        </p><br>
+        <p>
+          A typical CPU cycle is Fetch ==> Decode ==> Execute ==> Store, and modern CPUs run billions of those cycle per second<br> which is coincidentally also the measurement of Hz, so most modern CPUs are in the GHz.
+          <ul>
+            <li>Fetch: Fetches the instruction</li>
+            <li>Decode: Converts the instruction to machine code</li>
+            <li>Execute: Runs the translated machine code</li>
+            <li>Store: Stores the result in memory</li>
+          </ul>
+          <br>Another important thing about the cycle is that CPUs can pipeline, meaning they can run those four operations at the same time<br> instead to running them one by one and starting over. With pipelining it's possible to run 4 commands with the CPU
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
