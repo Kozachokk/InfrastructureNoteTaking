@@ -12,13 +12,56 @@
         <ul>
           <li><a href="week12.html">Week 12</a></li>
           <li><a href="../index.html">Home</a></li>
+          <li><a href="week14.html">Week 14</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>This page is work in progress</h1>
+      <h1>Networks</h1>
 
-      <article></article>
+      <article>
+        <p>A typical network is multiple devices that communicate with one another. There are two types:
+        <dl>
+          <dt>LAN(Local Area Network)</dt>
+          <dd>LAN is a network that is limited to one place, a small one might be your home, where your cellphones, TVs, laptops connect together by a router.<br>
+          A larger one might be a school or work network, where there is typically multiple access points to the network through switches, hubs and wireless access points</dd>
+          <dt>WAN(Wide Area Network)</dt>
+          <dd>WAN is a network of LANs, where LANs communicate together. The whole internet is a WAN</dd>
+        </dl></p>
+        <p>Network Components: </p>
+        <dl>
+          <dt>Network Interface Card(NIC)</dt>
+          <dd>It's a piece of hardware that connect the device to the network</dd>
+          <dt>Transport Medium</dt>
+          <dd>It's how data is tranfered through, by cables, wirelessly</dd>
+          <dt>Hubs</dt>
+          <dd>Hubs receive data and send it to every computer in the network, it's isn't recommended to use since traffic colision are very likely</dd>
+          <dt>Bridges</dt>
+          <dd>Bridges connect one network to another, they have two ports, one for receiving data, one for sending, typically used in differenct network architectures</dd>
+          <dt>Switches</dt>
+          <dd>Switches is a combination of hubs and bridges, they have multiple ports and have an address for each device and when receiving a message,<br>
+            forwards it towards
+the correct device address, they typically connect multiple devices in a network</dd>
+          <dt>Routers</dt>
+          <dd>Routers connect multiple networks together it's the hub for a LAN, they also provide security like firewalls</dd>
+        </dl>
+        <p>Peer to peer(P2P) connections is a type of network architecture where device share ressources by directly connecting to one another without going through a server<br>
+        A client/server connection is when devices(clients) connect to one server to access information, where the information is centralized</p>
+        <p>Network Protocols are rules that direct how data should be transmitted</p>
+        <p>Types of network protocols</p>
+        <ul>
+          <li>Communication Protocols: Automation, Instant Messaging, Routing, Bluetooth, File Transfer, Internet Protocol</li>
+          <li>Network Management Protocols: Connection, Link Aggregation, Troubleshooting</li>
+          <li>Security Protocols: Encryption, Entity Authentication, Transportation</li>
+          <li>Network Protocols: HTTP, HTTPS, SSH, SMS</li>
+          <li>Transport Protocols: TCP, IP</li>
+        </ul>
+        <p>To transfer data most networks will use TCP and IP, IP is the Internet Protocol which obtains the address to which data is sent,<br>
+          TCP which is Transport Control Protocol which breaks the file into smaller packets and sends it over the network and handles the delivery<br>
+        <br>
+        IPv4 is the most widely used IP, it's in a 32-bit format: 255.255.255.255<br>
+        The new generation IPv6, that's slowly phasing in, is in 128-bit format: FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF</p>
+      </article>
     </main>
     <footer></footer>
   </body>
